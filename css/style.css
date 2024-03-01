@@ -3,6 +3,26 @@
   padding: 0;
 }
 
+li {
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+th {
+  text-align: center;
+}
+
+
 .body {
   height: 100%;
 }
