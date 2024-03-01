@@ -4,7 +4,7 @@
 }
 
 li {
-  padding: 5px;
+  padding: 3px;
 }
 
 table {
@@ -22,17 +22,20 @@ th {
   text-align: center;
 }
 
-
-.body {
-  height: 100%;
+img {
+  width: 120px;
+  height: 160px;
 }
+
+/*.body {
+  height: 100%;
+}*/
 
 .container {
   display: flex;
   flex-direction: column;
-  height: 33%;
   width: 100%;
-  position: absolute;
+  position:relative;
   border: 1px solid blue;
 }
 .section {
@@ -41,14 +44,17 @@ th {
   padding: 20px;
 }
 
-#introduction {
-  top: 0%;
-}
+/*#introduction {*/
+  /*top: 0%;*/
+  /*height: 20%;*/
+/*}*/
 
-#best5 {
-  top: 33%;
-}
+/*#best5 {*/
+  /*top: 20%;*/
+  /*height: 60%;*/
+/*}*/
 
-#guest_book {
-  top: 66%;
-}
+/*#guest_book {
+  top: 80%;
+  height: 20%;
+}*/
