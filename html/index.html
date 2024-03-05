@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <title>Self introduction page</title>
   <link rel="stylesheet" href="../css/style.css">
-  <script src="../js/script.js" ></script>
 </head>
 <body>
 <div class="body">
@@ -91,12 +90,28 @@
       </table>
     </div>
   </div>
-  <div id="guest_book" class="container">
+  <div id="guestBook" class="container">
     <div class="section" >
       <h1>방명록</h1>
+      <div>
+        이름 :     
+        <input id="nameInput" type="text" class="guestName">
+      </div>
+      <h3>본인 취향 영화</h3>
+      <div>
+        <input id="movie1" type="checkbox">기생충</input>
+        <input id="movie2" type="checkbox">인터스텔라</input>
+        <input id="movie3" type="checkbox">아바타</input>
+        <input id="movie4" type="checkbox">타이타닉</input>
+        <input id="movie5" type="checkbox">설국열차</input>
+      </div>
+      <div>
+        <button id="resister" type="button">등록</button>
+        <button id="cancle" type="reset">취소</button>
+      </div>
     </div>
   </div>
 </div>
-
+<script src="../js/script.js" ></script>
 </body>
 </html>
